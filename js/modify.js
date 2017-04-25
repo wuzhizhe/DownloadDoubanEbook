@@ -3,7 +3,7 @@ var url = null;
 function callback(details) {
 	if (url.indexOf('read.douban.com/reader/ebook') !== -1) {
 	    return {
-			redirectUrl: "http://127.0.0.1:3001/webserverdir/setup1.js"
+			redirectUrl: "https://raw.githubusercontent.com/wuzhizhe/DownloadDoubanEbook/master/js/setup.js"
 		}
 	}
 }
