@@ -3,7 +3,7 @@ var url = null;
 function callback(details) {
 	if (url.indexOf('read.douban.com/reader/ebook') !== -1) {
 	    return {
-			redirectUrl: "https://raw.githubusercontent.com/wuzhizhe/DownloadDoubanEbook/master/js/setup.js"
+			redirectUrl: "https://rawgit.com/wuzhizhe/DownloadDoubanEbook/master/js/setup.js"
 		}
 	}
 }
